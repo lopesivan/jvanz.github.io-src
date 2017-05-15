@@ -10,11 +10,11 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://jvanz.github.com'
+SITEURL = 'http://lopesivan.github.com'
 RELATIVE_URLS = False
 
-AUTHOR = u'Jos\xe9 Guilherme Vanz'
-SITENAME = u'vanz'
+AUTHOR = u'Ivan Lopes'
+SITENAME = u'Ivan'
 SITEURL = ''
 
 PATH = 'content'
@@ -38,28 +38,28 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('email', 'guilherme.sft@gmail.com'),
-	('twitter', 'https://twitter.com/vanzstuff'),
-	('linkedin', 'https://br.linkedin.com/in/jvanz'),
-	('github', 'https://github.com/jvanz'))
+SOCIAL = (('email', 'ivan@42algoritmos.com.br'),
+	('twitter', 'https://twitter.com/42iczar42'),
+	('linkedin', 'https://br.linkedin.com/in/iczar'),
+	('github', 'https://github.com/lopesivan'))
 
 DEFAULT_PAGINATION = 10
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # Theme stuff
-THEME = "pelican-hyde"
+THEME = "/home/ivan/developer/pelican-themes/pelican-hyde"
 
-BIO = "I'm José Guilherme Vanz, from south Brazil. Working as Software Engineer. I love Open Source and programming"
+BIO = "I'm Ivan Lopes, from south Brazil. Working as Software Engineer. I love Open Source and programming"
 PROFILE_IMAGE = "avatar.jpg"
 
 PLUGINS = ['pelican_gist']
 
-DISQUS_SITENAME = "jvanz"
+DISQUS_SITENAME = "ivan"
 GOOGLE_ANALYTICS = "UA-73126405-1"

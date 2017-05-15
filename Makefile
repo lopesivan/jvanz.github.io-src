@@ -92,6 +92,8 @@ else
 	$(BASEDIR)/develop_server.sh restart
 endif
 
+deploy: clean publish startserver
+
 stopserver:
 	$(BASEDIR)/develop_server.sh stop
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'

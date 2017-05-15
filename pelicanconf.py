@@ -26,7 +26,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('email', 'ivan@42algoritmos.com'),
-          ('keybase', 'https://keybase.io/iczar'),
+          ('key', 'https://keybase.io/iczar'),
           ('linkedin', 'https://br.linkedin.com/in/iczar'),
           ('github', 'https://github.com/lopesivan'))
 
@@ -39,7 +39,10 @@ STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # Theme stuff
-THEME = "pelican-hyde"
+#THEME = ""
+#THEME = "/home/ivan/developer/pelican-themes/gum"
+THEME = "/home/ivan/developer/pelican-themes/pelican-hyde"
+#FAVICON = 'favicon.ico'
 
 BIO = "I'm Ivan Lopes, from south Brazil. Working as Software Engineer. I love Open Source and programming"
 PROFILE_IMAGE = "avatar.jpg"
