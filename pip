@@ -1,0 +1,3 @@
+
+pip install pelican markdown
+pip install pelican-gist

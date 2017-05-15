@@ -25,10 +25,10 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('email', 'guilherme.sft@gmail.com'),
-	('twitter', 'https://twitter.com/vanzstuff'),
-	('linkedin', 'https://br.linkedin.com/in/jvanz'),
-	('github', 'https://github.com/jvanz'))
+SOCIAL = (('email', 'ivan@42algoritmos.com'),
+        ('twitter', 'https://twitter.com/42ivan42'),
+        ('linkedin', 'https://br.linkedin.com/in/iczar'),
+        ('github', 'https://github.com/lopesivan'))
 
 DEFAULT_PAGINATION = 10
 
@@ -41,7 +41,7 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 # Theme stuff
 THEME = "pelican-hyde"
 
-BIO = "I'm José Guilherme Vanz, from south Brazil. Working as Software Engineer. I love Open Source and programming"
+BIO = "I'm Ivan Lopes, from south Brazil. Working as Software Engineer. I love Open Source and programming"
 PROFILE_IMAGE = "avatar.jpg"
 
 DISQUS_SITENAME = "jvanz"
