@@ -26,9 +26,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('email', 'ivan@42algoritmos.com'),
-        ('keybase', 'https://keybase.io/iczar'),
-        ('linkedin', 'https://br.linkedin.com/in/iczar'),
-        ('github', 'https://github.com/lopesivan'))
+          ('keybase', 'https://keybase.io/iczar'),
+          ('linkedin', 'https://br.linkedin.com/in/iczar'),
+          ('github', 'https://github.com/lopesivan'))
 
 DEFAULT_PAGINATION = 10
 
@@ -46,4 +46,4 @@ PROFILE_IMAGE = "avatar.jpg"
 
 DISQUS_SITENAME = "iczar"
 
-PLUGINS = ['pelican_gist']
+PLUGINS = ['pelican_gist', 'pelican_social']
