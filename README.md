@@ -1,2 +1,15 @@
 # lopesivan.github.io-src
-make publish
+
+Build
+
+```
+    make publish
+```
+
+Deploy
+
+```
+    make clean publish startserver
+```
+
+

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Jos\xe9 Guilherme Vanz'
-SITENAME = u'vanz'
+AUTHOR = u'Ivan Lopes'
+SITENAME = u'Ivan'
 SITEURL = ''
 
 PATH = 'content'
@@ -26,14 +26,14 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('email', 'ivan@42algoritmos.com'),
-        ('twitter', 'https://twitter.com/42ivan42'),
+        ('keybase', 'https://keybase.io/iczar'),
         ('linkedin', 'https://br.linkedin.com/in/iczar'),
         ('github', 'https://github.com/lopesivan'))
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
@@ -44,6 +44,6 @@ THEME = "pelican-hyde"
 BIO = "I'm Ivan Lopes, from south Brazil. Working as Software Engineer. I love Open Source and programming"
 PROFILE_IMAGE = "avatar.jpg"
 
-DISQUS_SITENAME = "jvanz"
+DISQUS_SITENAME = "iczar"
 
 PLUGINS = ['pelican_gist']
